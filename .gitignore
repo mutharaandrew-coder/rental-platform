@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Windows / editor junk
+Thumbs.db
+.vscode/
